@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Keerthana</title>
+    <link rel="stylesheet" href="constyle.css">
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #4a004a;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 30px 20px;
+            border-bottom: 5px dotted #ff69b4;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            animation: bounce 1.5s infinite;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #fff8f8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        section h2 {
+            color: #ff1493;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        section p, label {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            background-color: #ffe4e1;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(255, 192, 203, 0.5);
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            border: 2px dashed #ff69b4;
+            border-radius: 15px;
+            padding: 12px;
+            margin-bottom: 15px;
+            font-size: 1rem;
+            background-color: #fffafa;
+        }
+
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #ffb6c1;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+            border-top: 5px dotted #ff69b4;
+        }
+
+        a {
+            color: #c71585;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>✨ Let's Be Friends!</h1>
+        <p>Reach out and say hello! 💌</p>
+    </header>
+
+    <main class="container">
+        <section class="contact-info">
+            <h2>🏠 My Home Address</h2>
+            <p>Block No 314, Church Street,<br>Payyanur, Kannur, Kerala</p>
+
+            <h2>🎓 College Address</h2>
+            <p>Federal Institute of Science and Technology (FISAT), Angamaly, Kerala</p>
+
+            <h2>📞 Phone Number</h2>
+            <p><a href="tel:+918089590628">+91 80895 90628</a></p>
+
+            <h2>📧 Email Address</h2>
+            <p><a href="mailto:keerthana8105@gmail.com">keerthana8105@gmail.com</a></p>
+        </section>
+
+        <section class="contact-form">
+            <h2>🧸 Send Me a Message</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your sweet name..." required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address..." required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me something nice 💕" required></textarea>
+
+                <button type="submit">🎀 Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Keerthana's World • Pink, Fun & Full of Love 🌈</p>
+    </footer>
+</body>
+</html>

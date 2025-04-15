@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5; /* Soft pink background */
+    color: #4a004a; /* Darker pink for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for centered content */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+.blog-header {
+    background-color: #ffb6c1; /* Lighter pink for the header */
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ff69b4; /* Strong pink border */
+    color: #4a004a; /* Dark pink text */
+}
+
+/* Header Title */
+.blog-header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+/* Header Subtitle */
+.blog-header p {
+    font-size: 1.2rem;
+    color: #c71585; /* Vibrant pink */
+}
+
+/* Main Content Section */
+.blog-content {
+    margin-top: 40px;
+}
+
+.blog-content article {
+    background-color: #ffe4e1; /* Pale pink background for articles */
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3); /* Subtle shadow */
+    transition: box-shadow 0.3s ease;
+}
+
+.blog-content article:hover {
+    box-shadow: 0 8px 16px rgba(255, 105, 180, 0.4); /* Darker pink shadow on hover */
+}
+
+/* Article Headings */
+.blog-content h2 {
+    color: #ff69b4; /* Bold, vibrant pink for headings */
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffe4e1; /* Pale pink for footer */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #ff69b4; /* Vibrant pink border on top */
+}
+
+/* Footer Text */
+footer p {
+    color: #4a004a;
+    font-size: 1rem;
+}

@@ -1,0 +1,54 @@
+/* General resets already covered earlier */
+
+.contact-info h2,
+.contact-form h2 {
+    color: #ff69b4;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.contact-info p,
+.contact-form label {
+    font-size: 1rem;
+    color: #4a004a;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe4e1;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ffb6c1;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    background-color: #fff0f5;
+    color: #4a004a;
+}
+
+.contact-form button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ff1493;
+}
